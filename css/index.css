@@ -139,43 +139,48 @@ button:hover{
     width:100%;
 }
 @media (max-width: 500px){
-    header {
-        
+    header{
+
     }
-    nav {
-        display: flex;
-        justify-content: space-evenl;
+
+    nav{
         margin: 5%;
+        width: 40%;
     }
-    nav a {
-        
+
+    nav a{
+        margin: 0 2%;
+        font-size: 1.4rem;
     }
-    nav span {
+    nav span{
         margin: 0 5%
     }
-    .title-container {
-        max-width: 100%;
+    .title-container{
+        
     }
     .title-container div{
+        background-size: 240%;
+        background-position: ;
         width: 100%;
-        margin-top: 0%;
-        background-image: center;
+        margin:0;
     }
-    .title-container h1 {
+    .title-container h1{
         font-size: 5rem;
     }
-    .artists-container {
+    .title-container hr {
+        margin-bottom: 3%;
+        margin-top: 3%;
+        width: 100%;
+    }
+    .artists-container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 100%;
     }
     .artist{
         font-size:1.2rem;
         width: 100%;
-        padding: %;
     }
-    .artist img {
+    .artist img{
         width: 60%;
         height: auto;
         margin-bottom: 5%;
