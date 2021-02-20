@@ -1,3 +1,5 @@
+import { loremIpsum } from "lorem-ipsum";
+
 export const artists = [
     {
       "id": 0,
@@ -247,7 +249,7 @@ function get20s(array){
 //   const newArray = [];
 //   for( let i = 0; i < array.length - 1; i++) {
 //     if(artists[i].years >= '1900 -1900') {
-//        newArray.push(artists[i].name);
+//        newArray.push(artists[i].name());
 //     }
 //   }
 // }
@@ -287,18 +289,12 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
   
 
-function addArtist(array){
-  const newObject = { 
-    id: 20,
-    name: Your Name Here, 
-    years: Your Birth Year - current day,
-    genre: Web Design, 
-    nationality: Your Nationality Here
-    bio: 
-  }
-  }
+function addArtist(array, id, name, years, genre, nationality, bio){
+  array.push({id, name, years, genre, nationality,bio});
+  return array;
+}
 
-  
+  console.log(addArtist(artists, '20', 'Zach', '1992 - 2021', 'Web Design', 'American', 'Born and bread in Brooklyn, New York. Having a hard time on his coding journey but pushing through!'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 

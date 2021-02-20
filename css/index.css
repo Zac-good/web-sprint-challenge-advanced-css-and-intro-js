@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: ;  
+border: 0;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -139,10 +139,7 @@ button:hover{
     width:100%;
 }
 @media (max-width: 500px){
-    header{
-
-    }
-
+ 
     nav{
         margin: 5%;
         width: 40%;
@@ -155,12 +152,9 @@ button:hover{
     nav span{
         margin: 0 5%
     }
-    .title-container{
-        
-    }
+   
     .title-container div{
         background-size: 240%;
-        background-position: ;
         width: 100%;
         margin:0;
     }
